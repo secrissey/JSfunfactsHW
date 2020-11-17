@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HilevelfunctMapComponent } from './hilevelfunct-map.component';
+import { HilevelfunComponent } from './hilevelfun.component';
 
-describe('HilevelfunctMapComponent', () => {
-  let component: HilevelfunctMapComponent;
-  let fixture: ComponentFixture<HilevelfunctMapComponent>;
+describe('HilevelfunComponent', () => {
+  let component: HilevelfunComponent;
+  let fixture: ComponentFixture<HilevelfunComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HilevelfunctMapComponent ]
+      declarations: [ HilevelfunComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HilevelfunctMapComponent);
+    fixture = TestBed.createComponent(HilevelfunComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -5,16 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PromisesComponent } from './promises/promises.component';
 import { CallbacksComponent } from './callbacks/callbacks.component';
-import { HilevelfunctMapComponent } from './hilevelfunct-map/hilevelfunct-map.component';
 import { JScreatorComponent } from './jscreator/jscreator.component';
+import { HilevelfunComponent } from './hilevelfun/hilevelfun.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PromisesComponent,
     CallbacksComponent,
-    HilevelfunctMapComponent,
-    JScreatorComponent
+    JScreatorComponent,
+    HilevelfunComponent
   ],
   imports: [
     BrowserModule,
